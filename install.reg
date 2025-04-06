@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 清除请在[后面加-
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\image\shell\OpenWithImageViewer]
+@="Open With imgviewer"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\image\shell\OpenWithImageViewer\command]
+@="\"E:\\projects\\1cg\\gui\\imviewer\\out\\imviewer-win32-x64\\imviewer.exe\"  \"%1\""
+
